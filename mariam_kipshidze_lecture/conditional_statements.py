@@ -6,8 +6,8 @@ year = int(input("Enter your year: "))
 if age >= 18:
     monthly_amount = ((loan_amount * 1 / 5) * year + loan_amount) / (year * 12)
     if monthly_amount > (salary / 2):
-        print("You are not enough money!")
+        print("You do not have enough money!")
     else:
-        print("You are enough money!")
+        print("You have enough money!")
 else:
     print("You are not allowed to pay this year.")
